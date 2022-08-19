@@ -1,8 +1,8 @@
-﻿Console.Write("Введите первое число "); 
+﻿Console.Write("Введите первое число: "); 
 int number1 = Convert.ToInt32(Console.ReadLine());
-System.Console.Write("Введите второе число "); 
+System.Console.Write("Введите второе число: "); 
 int number2 = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите третье число "); 
+Console.Write("Введите третье число: "); 
 int number3 = Convert.ToInt32(Console.ReadLine());
 int maxnumber = number1;
 if (number2 > maxnumber && number2 > number3)
